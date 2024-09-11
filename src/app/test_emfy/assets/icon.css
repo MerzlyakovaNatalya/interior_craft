@@ -1,0 +1,23 @@
+.svg-icon {
+  position: relative;
+  top: 5px;
+}
+
+.status-indicator {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.status-indicator.red {
+  background-color: red;
+}
+
+.status-indicator.green {
+  background-color: green;
+}
+
+.status-indicator.yellow {
+  background-color: yellow;
+  color: black;
+}

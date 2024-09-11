@@ -7,6 +7,14 @@ module.exports = {
     hot: true,
     open: true,
     port: 8081,
+    proxy: [
+      {
+        context: ['/api/**'],
+        target: 'https://natamnata.amocrm.ru/',
+        secure: false,
+        changeOrigin: true,
+      }
+    ]
   },
   plugins: [
     new webpack.DefinePlugin({
