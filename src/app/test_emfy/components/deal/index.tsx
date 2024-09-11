@@ -1,6 +1,6 @@
 import { memo } from "react"
 import { StatusIcon } from "../../assets/status_icon"
-import { IDealProps } from "../types"
+import { IDealProps } from "../../types"
 import './styles.css'
 
 const Deal: React.FC<IDealProps> = memo(
