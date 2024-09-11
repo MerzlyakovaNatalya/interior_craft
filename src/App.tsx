@@ -1,8 +1,12 @@
+import Deals from './app/test_emfy/components/deals'
 import './styles.css'
 
 const App = () => {
+  return (
+    <>
+      <Deals />
+    </>
+  )
+}
 
-    return <div>App</div>
-  }
-  
-  export default App
+export default App

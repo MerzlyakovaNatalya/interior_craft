@@ -6,6 +6,10 @@
 html {
   box-sizing: border-box;
   font-size: calc(100vw / 1920 * 10);
+
+  @media (max-width: 1000px) {
+    font-size: calc(100vw / 1000 * 10);
+  }
   
   @media (max-width: 400px) {
     font-size: calc(100vw / 360 * 10);
